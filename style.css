@@ -76,7 +76,7 @@ html body {
 }
 
 .main .img img{
-  width: 35vw;
+  width: 30vw;
   border-radius: 50%;
 }
 
@@ -85,3 +85,28 @@ hr{
   z-index: -1;
 }
 
+.pi{
+  display: flex;
+  align-items: center;
+}
+
+.pi .piimg img{
+  width: 17.5vw;
+  margin: 5vw 0 5vw 5vw;
+}
+
+.pi .equal img{
+  width: 10vw;
+}
+
+.pi .digits h1{
+  color: #BC13FE;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.pi .digits p{
+  color: antiquewhite;
+  font-size: 1.35rem;
+}
