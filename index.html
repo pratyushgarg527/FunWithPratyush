@@ -1,96 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Fun With Pratyush</title>
-  <link rel="stylesheet" href="style.css">
-  <!--Bootstrap links-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-</head>
-<body>
-  <div class="nav">
-    <div class="pi"><a href="#"><img src="./images/pi.png" alt="" style="width:2vw;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fun With Pratyush</a></div>
-
-    <div class="navitems">
-      <a href="#main">Home</a>
-      <a href="#above-pi">Pi</a>
-      <a href="">Periodic Table</a>
-      <a href="">Facts</a>
-    </div>
-  </div>
-
-  <div class="carousel">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fun With Pratyush</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Bootstrap links-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="pi">
+        <a href="#"
+          ><img src="./images/pi.png" alt="" style="width: 2vw" />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fun With Pratyush</a
+        >
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <img src="./images/fact 1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h5>First slide label</h5>
+
+      <div class="navitems">
+        <a href="#main">Home</a>
+        <a href="#above-pi">Pi</a>
+        <a href="#periodic">Periodic Table</a>
+        <a href="">Facts</a>
+      </div>
+    </div>
+
+    <div class="carousel">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="./images/fact 1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p> -->
+            </div>
           </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="./images/joke 1.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h5>Second slide label</h5>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="./images/joke 1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
             <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/joke 2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="./images/joke 2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <!-- <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p> -->
-          </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="main" id="main">
+      <div class="txt">
+        <h1>Hello I'm <span>Pratyush</span></h1>
+        <p>
+          Welcome to Fun With Pratyush, your ultimate destination for exploring
+          the fascinating world of mathematics and science! Prepare to embark on
+          a thrilling journey where curiosity meets knowledge, and where
+          learning becomes an exciting adventure.
+          <br />
+          <br />
+          I made this website just for fun...
+        </p>
+      </div>
+      <div class="img">
+        <img src="./images/me.jpg" alt="" />
+      </div>
+    </div>
+
+    <hr size="10px" id="above-pi" />
+    <br />
+    <br />
+    <div class="pi">
+      <div class="piimg">
+        <img src="./images/pi symbol.png" alt="" />
+      </div>
+      <div class="equal">
+        <img src="./images/equal.png" alt="" />
+      </div>
+      <div class="digits">
+        <h1>First 1000 digits</h1>
+        <p>
+          3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944
+          5923078164 0628620899 8628034825 3421170679 8214808651 3282306647
+          0938446095 5058223172 5359408128 4811174502 8410270193 8521105559
+          6446229489 5493038196 4428810975 6659334461 2847564823 3786783165
+          2712019091 4564856692 3460348610 4543266482 1339360726 0249141273
+          7245870066 0631558817 4881520920 9628292540 9171536436 7892590360
+          0113305305 4882046652 1384146951 9415116094 3305727036 5759591953
+          0921861173 8193261179 3105118548 0744623799 6274956735 1885752724
+          8912279381 8301194912 9833673362 4406566430 8602139494 6395224737
+          1907021798 6094370277 0539217176 2931767523 8467481846 7669405132
+          0005681271 4526356082 7785771342 7577896091 7363717872 1468440901
+          2249534301 4654958537 1050792279 6892589235 4201995611 2129021960
+          8640344181 5981362977 4771309960 5187072113 4999999837 2978049951
+          0597317328 1609631859 5024459455 3469083026 4252230825 3344685035
+          2619311881 7101000313 7838752886 5875332083 8142061717 7669147303
+          5982534904 2875546873 1159562863 8823537875 9375195778 1857780532
+          1712268066 1300192787 6611195909 2164201989
+        </p>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <hr size="10px" id="periodic" />
+
+    <div class="periodic">
+      <br />
+      <h1>Periodic Table</h1>
+
+      <div class="p1">
+        <div class="h onm">
+          <p>1</p>
+          <h1>H</h1>
+          <p class="name">Hydrogen</p>
+        </div>
+        <div class="h empty">
+          <p>2</p>
+        </div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty">
+          <p>13</p>
+        </div>
+        <div class="h empty">
+          <p>14</p>
+        </div>
+        <div class="h empty">
+          <p>15</p>
+        </div>
+        <div class="h empty">
+          <p>16</p>
+        </div>
+        <div class="h empty">
+          <p>17</p>
+        </div>
+        <div class="h nb">
+          <p>2</p>
+          <h1>He</h1>
+          <p class="name">Helium</p>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-  <div class="main" id="main">
-    <div class="txt">
-      <h1>Hello I'm <span>Pratyush</span></h1>
-    <p>Welcome to Fun With Pratyush, your ultimate destination for exploring the fascinating world of mathematics and science! Prepare to embark on a thrilling journey where curiosity meets knowledge, and where learning becomes an exciting adventure.
-      <br>
-      <br>
-      I made this website just for fun...
-    </p>
-    </div>
-    <div class="img">
-      <img src="./images/me.jpg" alt="">
-    </div>
-  </div>
 
-  <hr size="10px" id="above-pi">
+      <!-- Period 2 -->
 
-  <div class="pi">
-    <div class="piimg">
-      <img src="./images/pi symbol.png" alt="">
-    </div>
-    <div class="equal">
-      <img src="./images/equal.png" alt="">
-    </div>
-    <div class="digits">
-      <h1>First 1000 digits</h1>
-      <p>3.1415926535 8979323846 2643383279 5028841971 6939937510 5820974944 5923078164 0628620899 8628034825 3421170679 8214808651 3282306647 0938446095 5058223172 5359408128 4811174502 8410270193 8521105559 6446229489 5493038196 4428810975 6659334461 2847564823 3786783165 2712019091 4564856692 3460348610 4543266482 1339360726 0249141273 7245870066 0631558817 4881520920 9628292540 9171536436 7892590360 0113305305 4882046652 1384146951 9415116094 3305727036 5759591953 0921861173 8193261179 3105118548 0744623799 6274956735 1885752724 8912279381 8301194912 9833673362 4406566430 8602139494 6395224737 1907021798 6094370277 0539217176 2931767523 8467481846 7669405132 0005681271 4526356082 7785771342 7577896091 7363717872 1468440901 2249534301 4654958537 1050792279 6892589235 4201995611 2129021960 8640344181 5981362977 4771309960 5187072113 4999999837 2978049951 0597317328 1609631859 5024459455 3469083026 4252230825 3344685035 2619311881 7101000313 7838752886 5875332083 8142061717 7669147303 5982534904 2875546873 1159562863 8823537875 9375195778 1857780532 1712268066 1300192787 6611195909 2164201989</p>
-    </div>
-  </div>
-  <div class="periodic">
+      <div class="p1">
+        <div class="h am">
+          <p>3</p>
+          <h1>Li</h1>
+          <p class="name">Lithium</p>
+        </div>
+        <div class="h aem">
+          <p>4</p>
+          <h1>Be</h1>
+          <p class="name">Beryllium</p>
+        </div>
 
-  </div>
-</body>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h empty"></div>
+        <div class="h onm">
+          <p>5</p>
+          <h1>B</h1>
+          <p class="name">Boron</p>
+        </div>
+        <div class="h onm">
+          <p>6</p>
+          <h1>C</h1>
+          <p class="name">Carbon</p>
+        </div>
+        <div class="h onm">
+          <p>7</p>
+          <h1>N</h1>
+          <p class="name">Nitrogen</p>
+        </div>
+        <div class="h onm">
+          <p>8</p>
+          <h1>O</h1>
+          <p class="name">Oxygen</p>
+        </div>
+        <div class="h halo">
+          <p>9</p>
+          <h1>F</h1>
+          <p class="name">Fluorine</p>
+        </div>
+        <div class="h nb">
+          <p>10</p>
+          <h1>Ne</h1>
+          <p class="name">Neon</p>
+        </div>
+      </div>
+
+      <!-- period 3 -->
+
+      <div class="p1">
+        <div class="h am">
+          <p>11</p>
+          <h1>Na</h1>
+          <p class="name">Sodium</p>
+        </div>
+        <div class="h aem">
+          <p>12</p>
+          <h1>Mg</h1>
+          <p class="name">Magnesium</p>
+        </div>
+
+        <div class="h empty">
+          <p>3</p>
+        </div>
+        <div class="h empty">
+          <p>4</p>
+        </div>
+        <div class="h empty">
+          <p>5</p>
+        </div>
+        <div class="h empty">
+          <p>6</p>
+        </div>
+        <div class="h empty">
+          <p>7</p>
+        </div>
+        <div class="h empty">
+          <p>8</p>
+        </div>
+        <div class="h empty">
+          <p>9</p>
+        </div>
+        <div class="h empty">
+          <p>10</p>
+        </div>
+        <div class="h empty">
+          <p>11</p>
+        </div>
+        <div class="h empty">
+          <p>12</p>
+        </div>
+        <!-- ------------------------ -->
+        <div class="h om">
+          <p>13</p>
+          <h1>Al</h1>
+          <p class="name">Aluminium</p>
+        </div>
+        <div class="h onm">
+          <p>14</p>
+          <h1>Si</h1>
+          <p class="name">Silicon</p>
+        </div>
+        <div class="h onm">
+          <p>15</p>
+          <h1>P</h1>
+          <p class="name" style="font-size: 0.65rem;">Phosphorous</p>
+        </div>
+        <div class="h onm">
+          <p>16</p>
+          <h1>S</h1>
+          <p class="name">Sulphur</p>
+        </div>
+        <div class="h halo">
+          <p>17</p>
+          <h1>Cl</h1>
+          <p class="name">Chlorine</p>
+        </div>
+        <div class="h nb">
+          <p>18</p>
+          <h1>Ar</h1>
+          <p class="name">Argon</p>
+        </div>
+      </div>
+
+      <!-- Period 4 -->
+    </div>
+  </body>
 </html>

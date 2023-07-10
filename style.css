@@ -37,10 +37,9 @@ html body {
   justify-self: flex-start;
 }
 
-.carousel-inner{
+.carousel-inner {
   height: 90vh;
 }
-
 
 .main {
   color: #5638ff;
@@ -56,7 +55,7 @@ html body {
   color: #ff10f0;
 }
 
-.main .txt{
+.main .txt {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,49 +63,125 @@ html body {
   margin-right: 2vw;
 }
 
-.main .txt p{
+.main .txt p {
   color: #4bf0fc;
   font-size: 1.25rem;
 }
 
-.main .txt{
+.main .txt {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
 }
 
-.main .img img{
+.main .img img {
   width: 30vw;
   border-radius: 50%;
 }
 
-hr{
+hr {
   background-color: #525252 !important;
   z-index: -1;
 }
 
-.pi{
+.pi {
   display: flex;
   align-items: center;
 }
 
-.pi .piimg img{
+.pi .piimg img {
   width: 17.5vw;
   margin: 5vw 0 5vw 5vw;
 }
 
-.pi .equal img{
+.pi .equal img {
   width: 10vw;
 }
 
-.pi .digits h1{
-  color: #BC13FE;
+.pi .digits h1 {
+  color: #bc13fe;
   font-family: sans-serif;
   font-weight: bolder;
   font-size: 3rem;
 }
 
-.pi .digits p{
+.pi .digits p {
   color: antiquewhite;
   font-size: 1.35rem;
+}
+
+.periodic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.periodic h1 {
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+.periodic .p1 {
+  display: flex;
+  color: #ffffff;
+  line-height: 14px;
+}
+
+.periodic .p1 p {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+}
+
+.periodic .p1 h1 {
+  margin-bottom: 0;
+}
+
+.periodic .p1 p.name {
+  align-self: center;
+}
+
+.p1 .h {
+  border: #4bf0fc 2px solid;
+  width: 4.5vw;
+  height: 4.5vw;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  padding: 3px;
+}
+
+.p1 .h h1 {
+  align-self: center;
+  font-size: 1.75rem;
+}
+
+.p1 .empty {
+  border: #ffffff00 2px solid;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.p1 .empty p {
+  align-self: flex-end;
+  font-size: 1.75rem;
+}
+
+.p1 .onm{
+  border-color: #ff4747;
+}
+
+.p1 .am{
+  border-color: #FFFF00;
+}
+
+.p1 .aem{
+  border-color: #ff8758;
+}
+
+.p1 .halo{
+  border-color: #39ff14;
+}
+
+.p1 .om{
+  border-color: #ff3af2;
 }
