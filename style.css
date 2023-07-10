@@ -117,7 +117,6 @@ hr {
 }
 
 .periodic h1 {
-  color: #ffffff;
   font-size: 3rem;
 }
 
@@ -168,10 +167,21 @@ hr {
 
 .p1 .onm{
   border-color: #ff4747;
+  transition: .3s;
+}
+
+.p1 .onm:hover{
+  background-color: #ff4747;
 }
 
 .p1 .am{
   border-color: #FFFF00;
+  transition: .3s;
+}
+
+.p1 .am:hover{
+  background-color: #FFFF00;
+  color:#0a0a08;
 }
 
 .p1 .aem{
