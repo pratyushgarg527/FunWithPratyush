@@ -38,7 +38,12 @@ html body {
 }
 
 .carousel-inner {
-  height: 90vh;
+  height: 45vw !important;
+  /* height: fit-content !important; */
+}
+
+.carousel-inner .cimg{
+  width: 20vw;
 }
 
 .main {
