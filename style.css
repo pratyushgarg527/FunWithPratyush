@@ -129,7 +129,7 @@ hr {
 
 .periodic .p1 p {
   margin-bottom: 0;
-  font-size: 0.8rem;
+  font-size: 0.8vw;
 }
 
 .periodic .p1 h1 {
@@ -152,7 +152,7 @@ hr {
 
 .p1 .h h1 {
   align-self: center;
-  font-size: 1.75rem;
+  font-size: 1.7vw;
 }
 
 .p1 .empty {
@@ -163,7 +163,7 @@ hr {
 
 .p1 .empty p {
   align-self: flex-end;
-  font-size: 1.75rem;
+  font-size: 2vw;
 }
 
 .p1 .onm{
