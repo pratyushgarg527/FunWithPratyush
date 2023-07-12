@@ -128,12 +128,13 @@ hr {
 .periodic .p1 {
   display: flex;
   color: #ffffff;
-  line-height: 14px;
+  line-height: 1vw;
 }
 
 .periodic .p1 p {
   margin-bottom: 0;
   font-size: 0.8vw;
+  font-weight: 700;
 }
 
 .periodic .p1 h1 {
@@ -142,6 +143,7 @@ hr {
 
 .periodic .p1 p.name {
   align-self: center;
+  font-weight: 600;
 }
 
 .p1 .h {
@@ -152,6 +154,15 @@ hr {
   flex-direction: column;
   margin: 3px;
   padding: 3px;
+  transition: 200ms;
+}
+
+.p1 .h:hover{
+  transform: scale(110%);
+}
+
+.p1 .gn:hover{
+  transform: scale(100%);
 }
 
 .p1 .h h1 {
@@ -193,10 +204,38 @@ hr {
   border-color: #ff8758;
 }
 
+.p1 .aem:hover{
+  background-color: #ff8758;
+}
+
 .p1 .halo{
   border-color: #39ff14;
 }
 
+.p1 .halo:hover{
+  background-color: #39ff14;
+  color:#0a0a08;
+}
+
 .p1 .om{
   border-color: #ff3af2;
+}
+
+.p1 .om:hover{
+  background-color: #ff3af2;
+}
+
+.p1 .ree{
+  border-color: #00ffa0;
+}
+.p1 .ree:hover{
+  background-color: #00ffa0;
+  color: #0a0a08;
+}
+
+.p1 .tm{
+  border-color: #9457eb;
+}
+.p1 .tm:hover{
+  background-color: #9457eb;
 }
