@@ -21,6 +21,31 @@ html body {
   justify-content: space-between;
   position: sticky;
   top: 0;
+  transition: 250ms;
+}
+
+.nav .navitems a {
+  display: inline-block;
+  position: relative;
+  color: #0a0a08;
+}
+
+.nav .navitems a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0a0a08;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav .navitems a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .nav a {
@@ -28,7 +53,7 @@ html body {
   color: #0a0a08;
   list-style: none;
   margin: 0 2vw;
-  font-size: 1.25rem;
+  font-size: 1.25vw;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
 }
@@ -112,7 +137,7 @@ hr {
 
 .pi .digits p {
   color: antiquewhite;
-  font-size: 1.35rem;
+  font-size: 1.25vw;
 }
 
 .periodic {
@@ -147,7 +172,7 @@ hr {
 }
 
 .p1 .h {
-  border: #4bf0fc 2px solid;
+  border: #032AF3 2px solid;
   width: 4.5vw;
   height: 4.5vw;
   display: flex;
@@ -239,4 +264,13 @@ hr {
 
 .p1 .tm:hover{
   background-color: #9457eb;
+}
+
+.p1 .ae{
+  border-color: #07D2F5;
+}
+
+.p1 .ae:hover{
+  background-color: #07D2F5;
+  color: #0a0a08;
 }
